@@ -1,0 +1,56 @@
+@media screen and (max-width: 480px) {
+  .contenedor-header {
+    width: auto;
+  }
+
+  .contenedor-header h1 {
+    left: 65px;
+  }
+
+  nav {
+    top: 240px;
+    left: 0px;
+    font-size: 0.7em;
+  }
+
+  .contenedor-header h2 {
+    left: 115px;
+    font-size: 1.2em;
+  }
+
+  .contenedor-section {
+    padding: 0;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .contenedor-section p {
+    line-height: 1.3;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .titulo-principal {
+    margin: 45px auto 10px;
+  }
+
+  .gif-animado {
+    display: none;
+  }
+
+  .formacion li {
+    width: 100%;
+    margin: 0;
+    line-height: 1.8;
+  }
+  .skills li {
+    margin-left: 50px;
+    padding-top: 50px;
+  }
+  .contacto li {
+    display: inline-flex;
+    align-items: center;
+    width: 55%;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: gainsboro;
+  color: #000000;
+}
+
+/* Inicia CSS Para Header */
+header {
+  background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.7)) #3e4a6d;
+  height: 40vh;
+  color: #fefefe;
+}
+
+.contenedor-header {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: start;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 110px;
+  left: 0;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #fefefe;
+  font-size: 0.95em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a i {
+  margin-left: 5px;
+}
+
+nav a:hover {
+  color: #92d0be;
+}
+
+header h2 {
+  font-size: 2.1em;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 150px;
+}
+/* Finaliza CSS para Header */
+/* Inicia CSS para Sections */
+.contenedor-section {
+  padding: 3em 0;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.contenedor-section p {
+  margin: 0 0 1em;
+}
+
+.contenedor-section strong {
+  font-weight: bold;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+  clear: left;
+}
+.titulo-principal::after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #92d0be;
+  content: " ";
+  margin: 0 auto;
+}
+
+.gif-animado {
+  width: 240px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.titulo-secundario {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 1.6em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Finaliza CSS para Sections */
+/* Comienza CSS para Section-Formacion */
+.item-principal {
+  margin: 20px;
+  font-weight: bold;
+}
+.item-principal::before {
+  content: "★ ";
+}
+
+.item-secundario {
+  font-weight: normal;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+/* Finaliza CSS para Sections-Formacion */
+/* Comienza CSS para Section-Skills */
+.skills li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 10px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.skills li:hover {
+  color: #c78c19;
+  border-color: #c78c19;
+}
+
+.skills li span,
+.skills li i {
+  font-size: 50px;
+}
+
+.skills li p {
+  margin-top: 15px;
+  font-weight: bold;
+}
+/* Finaliza CSS para Section-Skills */
+/* Comienza CSS para Section-Contacto */
+.contacto li {
+  display: inline-block;
+  text-align: center;
+  width: 45%;
+  vertical-align: top;
+  margin: 10px;
+  padding: 30px 20px;
+}
+
+.contacto li a {
+  padding-left: 10px;
+  font-size: 0.95em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contacto li a:link,
+.contacto li a:visited {
+  color: #000000;
+}
+
+.contacto li a:hover,
+.contacto li a:active {
+  color: #c78c19;
+}
+
+.contacto li span,
+.contacto li i {
+  color: #29456d;
+  font-size: 30px;
+}
+/* Finaliza CSS para Section-Contacto */
+/* Comienza CSS para Footer */
+footer {
+  text-align: center;
+  background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.7)) #3e4a6d;
+  padding: 40px;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px;
+}
