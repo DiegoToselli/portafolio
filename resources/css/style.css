@@ -12,7 +12,13 @@ body {
 
 /* Inicia CSS Para Header */
 header {
-  background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.7)) #3e4a6d;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 19, 1) 0%,
+      rgba(54, 54, 54, 1) 100%,
+      rgba(22, 22, 22, 1) 181818%
+    ),
+    rgb(19, 19, 19);
   height: 40vh;
   color: #fefefe;
 }
@@ -117,9 +123,6 @@ header h2 {
   margin: 20px;
   font-weight: bold;
 }
-.item-principal::before {
-  content: "★ ";
-}
 
 .item-secundario {
   font-weight: normal;
@@ -192,7 +195,13 @@ header h2 {
 /* Comienza CSS para Footer */
 footer {
   text-align: center;
-  background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.7)) #3e4a6d;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 19, 1) 0%,
+      rgba(54, 54, 54, 1) 100%,
+      rgba(22, 22, 22, 1) 181818%
+    ),
+    rgb(19, 19, 19);
   padding: 40px;
 }
 
